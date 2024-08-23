@@ -14,11 +14,22 @@
 		<link rel="stylesheet" href="./assets/css/colors/navy.css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	</head>
-
-	<body class="bg-gray">
+	<style>
+		.nav-tabs-custom .nav-link {
+			color: white !important;
+		}
+		.nav-tabs-custom .nav-link:hover {
+			color: grey !important;
+		}
+		.nav-tabs-custom .nav-link.active {
+			color: white !important;
+			background-color: transparent !important; /* Optional: remove the background on active tab */
+		}
+	</style>
+	<body class="bg-dark">
 		<div class="content-wrapper">
 			<header class="wrapper bg-primary">
-				<header class="wrapper bg-gray">
+				<header class="wrapper bg-dark">
 					<nav class="navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light">
 						<div class="container flex-lg-column">
 							<div class="topbar d-flex flex-row justify-content-lg-center align-items-center">
@@ -99,10 +110,10 @@
 				<!-- /header -->
 			</header>
 			<!-- /header -->
-			<section class="p-2">
+			<section class="p-2 text-light">
 				<div class="container">
-					<div class="text-center mt-10" id="services"><h2 class="display-4 mb-3">Carpet Cleaning in Saskatoon</h2></div>
-					<h6 class="lead">
+					<div class="text-center mt-10" id="services"><h2 class="display-4 mb-3 text-light">Carpet Cleaning in Saskatoon</h2></div>
+					<h6 class="lead text-light">
 						Saskatoon Carpet Cleaning is renowned for its exceptional quality and attention to detail, making it the top choice for both
 						businesses and homes in the Saskatoon area. Carpets enhance your home's beauty but can trap dust and allergens that regular
 						vacuuming can't remove. Our high-rated service ensures your carpets remain clean, fresh, and contribute to a healthier home
@@ -111,7 +122,7 @@
 						pet fur and surface stains. Choose Saskatoon Carpet Cleaning for reliable, top-quality carpet care.
 					</h6>
 
-					<ul class="nav nav-tabs nav-tabs-basic mt-5">
+					<ul class="nav nav-tabs nav-tabs-basic mt-5 text-light nav-tabs-custom">
 						<li class="nav-item">
 							<a class="nav-link active" data-bs-toggle="tab" href="#service2">Carpet Repair</a>
 						</li>
@@ -136,7 +147,7 @@
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane service-item-2 active" id="service2">
-							<h3 class="services-page">Carpet Repair</h3>
+							<h3 class="services-page text-light">Carpet Repair</h3>
 							<br />
 							<p>
 								Saskatoon Carpet Cleaning offers small repairs that include cigarette burns, pulls or snags in Berber carpet, and
@@ -147,14 +158,14 @@
 						</div>
 
 						<div class="tab-pane service-item-3" id="service3">
-							<h3 class="services-page">Bed Mattress Cleaning</h3>
+							<h3 class="services-page text-light">Bed Mattress Cleaning</h3>
 							<br />
 							<p>More info coming soon!</p>
 							<div class="clearfix"></div>
 						</div>
 
 						<div class="tab-pane service-item-4" id="service4">
-							<h3 class="services-page">Professional Upholstery Cleaning</h3>
+							<h3 class="services-page text-light">Professional Upholstery Cleaning</h3>
 							<br />
 							<p>
 								Saskatoon Carpet Cleaning specializes in upholstery cleaning that includes vehicles in Saskatoon and surrounding
@@ -174,28 +185,28 @@
 								getting your upholstery cleaned:
 							</p>
 
-							<h2>Benefit 1: Removes Allergens</h2>
+							<h2 class="text-light">Benefit 1: Removes Allergens</h2>
 							<p>
 								It provides an opportunity to remove dust from your furniture, thus reducing the chances of the people living in the
 								house developing allergies. In the end, this improves air quality and ensures that you have a healthy house.
 							</p>
-							<h2>Benefit 2: Longer Lasting Upholstery</h2>
+							<h2 class="text-light">Benefit 2: Longer Lasting Upholstery</h2>
 							<p>
 								Dust has jagged edges, which can scratch the fibres; the microscopic abrasions can cause your fabric to look thin and
 								dull. Regular cleaning will often remove the dust at the same time, making it last for a longer time when compared to
 								other solutions.
 							</p>
-							<h2>Benefit 3: Pleasing to the Eye</h2>
+							<h2 class="text-light">Benefit 3: Pleasing to the Eye</h2>
 							<p>
 								Steam cleaning or shampooing upholstery will always please your eyes since is among the best methods to make your
 								furniture look amazing. Regular cleaning will often make your furniture remain looking like new.
 							</p>
-							<h2>Benefit 4: Fresh Smell</h2>
+							<h2 class="text-light">Benefit 4: Fresh Smell</h2>
 							<p>
 								Furniture can often develop an unpleasant smell after time. A professional cleaning of the furniture will get rid of
 								any foul odours, and make your house look and smell amazing.
 							</p>
-							<h2>Benefit 5: Durability of the Furniture</h2>
+							<h2 class="text-light">Benefit 5: Durability of the Furniture</h2>
 							<p>
 								If the upholstery is left dusty and dirty, it will age faster and wear out. The easiest method to enhance its
 								durability is to clean the upholstery! This will save you money on the cost of buying new furniture, and keep it
@@ -205,7 +216,7 @@
 						</div>
 
 						<div class="tab-pane service-item-5" id="service5">
-							<h3 class="services-page">Professional Carpet Cleaning</h3>
+							<h3 class="services-page text-light">Professional Carpet Cleaning</h3>
 							<br />
 							<p>
 								Carpets are a mainstay of flooring in homes and offices, and as such there is an entire industry dedicated to their
@@ -249,7 +260,7 @@
 						</div>
 
 						<div class="tab-pane service-item-6" id="service6">
-							<h3 class="services-page">Carpet and Upholstery Care</h3>
+							<h3 class="services-page text-light">Carpet and Upholstery Care</h3>
 							<br />
 							<p>
 								Carpets with their beautiful coloring bring a touch of art into every personal and work environment. Maintenance for
@@ -274,57 +285,57 @@
 						</div>
 
 						<div class="tab-pane service-item-7" id="service7">
-							<h3 class="services-page">Area Rug Cleaning</h3>
+							<h3 class="services-page text-light">Area Rug Cleaning</h3>
 							<br />
-							<h2>Free pick up delivery includes Warman & Martensville</h2>
-							<h2>Free in Home Estimates</h2>
+							<h2 class="text-light">Free pick up delivery includes Warman & Martensville</h2>
+							<h2 class="text-light">Free in Home Estimates</h2>
 							<p>
 								We offer free in home estimates. And for your convenience, we offer evening and weekend appointments. For any
 								inquiries or to schedule an appointment please call us.
 							</p>
 							<p>We look forward to serving you.</p>
 							<p>"Your complete satisfaction is our priority."</p>
-							<h2>Professional Area Rug Cleaning</h2>
+							<h2 class="text-light">Professional Area Rug Cleaning</h2>
 							<p>
 								Advance Carpet Services wants you to be absolutely satisfied at every rug cleaning job we do. Every job comes with our
 								risk-free guarantee, so you have nothing to lose. If you’re not completely satisfied, let us know and we’ll re-clean
 								the rug for free.
 							</p>
-							<h2>Our Area Rug Cleaning Process</h2>
+							<h2 class="text-light">Our Area Rug Cleaning Process</h2>
 							<p>
 								Cleaning area rugs requires special attention as rugs are made from different materials and construction methods. At
 								Advance Carpet Services, we follow a comprehensive process to ensure your area rugs are cleaned to the highest
 								standard.
 							</p>
-							<h2>1. Inspection</h2>
+							<h2 class="text-light">1. Inspection</h2>
 							<p>
 								We examine the rug to identify any damage, stains, or specific needs. This allows us to customize our cleaning
 								approach.
 							</p>
-							<h2>2. Dust Removal</h2>
+							<h2 class="text-light">2. Dust Removal</h2>
 							<p>We thoroughly shake out or use a vacuum to remove dust and loose dirt from the rug.</p>
-							<h2>3. Pre-Treatment</h2>
+							<h2 class="text-light">3. Pre-Treatment</h2>
 							<p>We apply a pre-treatment solution to loosen dirt and stains.</p>
-							<h2>4. Cleaning</h2>
+							<h2 class="text-light">4. Cleaning</h2>
 							<p>We use the appropriate cleaning method for your rug type, which may include steam cleaning or dry cleaning.</p>
-							<h2>5. Rinsing & Drying</h2>
+							<h2 class="text-light">5. Rinsing & Drying</h2>
 							<p>We rinse out any cleaning solution and ensure the rug is thoroughly dried to prevent mold and mildew.</p>
-							<h2>6. Final Inspection</h2>
+							<h2 class="text-light">6. Final Inspection</h2>
 							<p>We inspect the rug to ensure it meets our high standards before returning it to you.</p>
 							<div class="clearfix"></div>
 						</div>
 
 						<div class="tab-pane service-item-8" id="service8">
-							<h3 class="services-page">Carpet Binding & Surging</h3>
+							<h3 class="services-page text-light">Carpet Binding & Surging</h3>
 							<br />
-							<h2>Carpet Binding</h2>
+							<h2 class="text-light">Carpet Binding</h2>
 							<p>
 								Our carpet binding service turns leftover carpet remnants into beautiful area rugs. Carpet binding is the process of
 								sewing a binding material around the edges of a carpet remnant to prevent fraying. This technique allows you to
 								repurpose old carpet pieces into functional and decorative rugs for various uses. Contact us for custom sizes and
 								styles.
 							</p>
-							<h2>Carpet Surging</h2>
+							<h2 class="text-light">Carpet Surging</h2>
 							<p>
 								Carpet surging is a finishing technique where yarn is sewn around the edges of a carpet to create a clean, finished
 								look. This method is especially useful for carpets that will be used in high-traffic areas or where a polished edge is

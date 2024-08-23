@@ -14,11 +14,22 @@
 		<link rel="stylesheet" href="./assets/css/colors/navy.css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	</head>
-
-	<body class="bg-gray">
+	<style>
+		.nav-tabs-custom .nav-link {
+			color: white !important;
+		}
+		.nav-tabs-custom .nav-link:hover {
+			color: grey !important;
+		}
+		.nav-tabs-custom .nav-link.active {
+			color: white !important;
+			background-color: transparent !important; /* Optional: remove the background on active tab */
+		}
+	</style>
+	<body class="bg-dark">
 		<div class="content-wrapper">
-			<header class="wrapper bg-primary">
-				<header class="wrapper bg-gray">
+			<header class="wrapper bg-dark">
+				<header class="wrapper bg-dark">
 					<nav class="navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light">
 						<div class="container flex-lg-column">
 							<div class="topbar d-flex flex-row justify-content-lg-center align-items-center">
@@ -101,8 +112,8 @@
 			<!-- /header -->
 			<section class="p-2">
 				<div class="container">
-					<div class="text-center mt-10" id="services"><h2 class="display-4 mb-3">Removing Carpet Marks and Stains</h2></div>
-					<h6 class="lead">
+					<div class="text-center mt-10" id="services"><h2 class="display-4 mb-3 text-light">Removing Carpet Marks and Stains</h2></div>
+					<h6 class="lead text-light">
 						Paint, coffee, wine, or juice – regardless of the type of stain, it seems like carpets are magnets for mess. And, depending on
 						the type of stain, different techniques are recommended for removal. While there are some basic carpet cleaning truths that
 						should be employed (i.e. blot stains and rinse thoroughly with clean water, and never scrub carpets as you may damage carpet
@@ -110,7 +121,7 @@
 						discuss water-soluble stains, fats and oils, and regular maintenance to keep your carpets looking their best.
 					</h6>
 
-					<ul class="nav nav-tabs nav-tabs-basic">
+					<ul class="nav nav-tabs nav-tabs-basic mt-5 text-light nav-tabs-custom">
 						<li class="nav-item">
 							<a class="nav-link active" data-bs-toggle="tab" href="#tab3-1">Water-Soluble Stains</a>
 						</li>
@@ -137,9 +148,9 @@
 						</li>
 					</ul>
 					<!-- /.nav-tabs -->
-					<div class="tab-content mt-0 mt-md-5">
+					<div class="tab-content mt-0 mt-md-5 text-light">
 						<div class="tab-pane fade show active" id="tab3-1">
-							<h3>Water-Soluble Stains</h3>
+							<h3 class="text-light">Water-Soluble Stains</h3>
 							<div class="col-sm-6">
 								<p>Examples of water-soluble stains are:</p>
 								<ul>
@@ -172,7 +183,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-2">
-							<h3>Oil and Wax Stains</h3>
+							<h3 class="text-light">Oil and Wax Stains</h3>
 							<p>
 								When it comes to oil and wax stains, simply place a paper towel over the spot and use a clothes iron on warm setting.
 								This should lift the stain into the paper towel for easy removal.
@@ -180,7 +191,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-3">
-							<h3>Glue</h3>
+							<h3 class="text-light">Glue</h3>
 							<p>
 								To remove glue, lightly moisten a cotton ball or cloth with rubbing alcohol and gently press it against the stain. As
 								the glue becomes moistened, you should be able to wipe it off. Repeat this process until the glue stain is removed
@@ -189,7 +200,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-4">
-							<h3>Wax and Gum</h3>
+							<h3 class="text-light">Wax and Gum</h3>
 							<p>
 								Another technique for wax that also works well for gum is to use an ice cube to freeze the wax or gum, and then break
 								it up with a large, hard object. Before the stain can soften again, vacuum it away.
@@ -201,7 +212,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-5">
-							<h3>Removing Lipstick Stains</h3>
+							<h3 class="text-light">Removing Lipstick Stains</h3>
 							<p>
 								Spills and stains occur. Often times we face unusual cases of stains we never expected. Lipstick can somehow make it
 								to our carpet and removing it may be a challenge. There are a few steps you can follow to get rid of a lipstick stain.
@@ -244,7 +255,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-6">
-							<h3>Removing Tomato Juice or Sauce</h3>
+							<h3 class="text-light">Removing Tomato Juice or Sauce</h3>
 							<p>
 								A tomato stain may occur while eating spaghetti or drinking a Caesar. There are steps that could be followed to get
 								rid of the stain. The most important thing to do is dealing with the stain as soon as possible.
@@ -292,7 +303,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-7">
-							<h3>Removing Rust Stains</h3>
+							<h3 class="text-light">Removing Rust Stains</h3>
 							<p>
 								Rust stains are tough to handle. It is possible to remove them using simple household items that are quite available.
 								It’s important to tackle the stain as soon as it’s found.
@@ -325,7 +336,7 @@
 						</div>
 						<!--/.tab-pane -->
 						<div class="tab-pane fade" id="tab3-8">
-							<h3>Removing Water Stains</h3>
+							<h3 class="text-light">Removing Water Stains</h3>
 							<p>
 								Water stains can appear from spills or leaks. They are usually easy to handle if treated correctly. Here are the steps
 								to follow for cleaning water stains:
